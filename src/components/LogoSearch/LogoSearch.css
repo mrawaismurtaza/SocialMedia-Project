@@ -3,7 +3,7 @@
     gap: 0.75rem;
 }
 
-.Search {
+.Search{
     display: flex;
     background-color: var(--inputColor);
     border-radius: 10px;
@@ -12,7 +12,7 @@
 
 .Search>input{
     background-color: transparent;
-    border: none;
+    border:none;
     outline: none;
 }
 

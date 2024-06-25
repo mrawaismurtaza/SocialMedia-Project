@@ -1,16 +1,14 @@
 import React from 'react'
-import "./ProfileLeft.css"
-import LogoSearch from '../LogoSearch/LogoSearch'
-import FollowersCard from '../FollowersCrad/FollowersCard'
+import FollowersCard from '../FollowersCard/FollowersCard'
 import InfoCard from '../InfoCard/InfoCard'
-
-function ProfileLeft() {
+import LogoSearch from '../LogoSearch/LogoSearch'
+const ProfileLeft = () => {
   return (
-    <div className="ProfileLeft">
-        <LogoSearch/>
-        <InfoCard/>
-        <FollowersCard/>
-    </div>
+   <div className="ProfileSide">
+       <LogoSearch/>
+       <InfoCard/>
+       <FollowersCard/>
+   </div>
   )
 }
 
