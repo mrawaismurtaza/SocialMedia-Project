@@ -9,7 +9,7 @@ function FollowersCard() {
         <h3>Who is following You</h3>
 
 
-        {Followers. map(( follwer, id) => {
+        {Followers.map(( follwer, id) => {
             return(
                 <div className="follower">
                     <div>

@@ -19,6 +19,7 @@
   color: var(--black);
   background: #f3f3f3;
   padding: 1rem 1rem;
+  
 }
 
 .blur{
@@ -47,4 +48,8 @@
   color: var(--orange);
   background: transparent;
   border: 2px solid var(--orange);
+}
+
+::-webkit-scrollbar{
+  display: none;
 }
